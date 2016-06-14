@@ -1,0 +1,8 @@
+export class Math {
+    add(x: number, y: number) {
+        return x + y;
+    }
+    subtract(x: number, y: number) {
+        return this.add(x, -y);
+    }
+}
