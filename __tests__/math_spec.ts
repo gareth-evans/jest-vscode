@@ -13,6 +13,7 @@ describe("math", () => {
 
     it("substract one number from another", () => {
         let result = math.subtract(3,6);
+        
         expect(result).toEqual(-3);
     })
 });
