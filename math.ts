@@ -3,6 +3,6 @@ export class Math {
         return x + y;
     }
     subtract(x: number, y: number) {
-        return this.add(x, -y);
+        return x - y;
     }
 }
